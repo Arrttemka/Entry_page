@@ -12,7 +12,7 @@ class SplashScreenLogo extends StatelessWidget {
     final imageHeight = screenHeight * (152 / 800);
 
     return Image.asset(
-      'assets/images/logo_splash_screen.png',
+      'assets/images/logo_splash_page.png',
       width: imageWidth,
       height: imageHeight,
     );
