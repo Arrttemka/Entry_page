@@ -13,6 +13,9 @@ dependencies:
   cupertino_icons: ^1.0.8
   google_fonts: ^4.0.3
   path_provider: ^2.0.0
+  shared_preferences: ^2.2.0
+  get_it: ^7.6.0
+  flutter_launcher_icons: ^0.13.1
 
 dev_dependencies:
   flutter_test:
@@ -26,3 +29,18 @@ flutter:
     - assets/images/bel_flag.png
     - assets/images/usa_flag.png
     - assets/images/rus_flag.png
+    - assets/icon/
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  remove_alpha_ios: true
+  min_sdk_android: 21
+  web:
+    generate: false
+  windows:
+    generate: false
+  macos:
+    generate: false
