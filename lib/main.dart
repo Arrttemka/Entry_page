@@ -1,3 +1,4 @@
+import 'package:entry_page/presentation/pages/auth_page.dart';
 import 'package:flutter/material.dart';
 import 'presentation/pages/splash_page.dart';
 
@@ -12,11 +13,10 @@ class EntryApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Police Car Game',
       theme: ThemeData.dark(),
       initialRoute: '/',
       routes: {
-        '/': (context) => SplashScreen(),
+        '/': (context) => AuthPage(),
       },
     );
   }
